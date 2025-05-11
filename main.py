@@ -152,7 +152,7 @@ def getclass(driver,classname):#科目の授業内容の取得
 
 ID = input("ユーザーID>")
 password = input("パスワード>")
-os.mkdir("CLASS",exist_ok=True)
+os.makedirs("CLASS",exist_ok=True)
 
 # Chromeドライバのパスとオプションを設定
 chrome_options = Options()
